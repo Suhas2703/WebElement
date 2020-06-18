@@ -1,0 +1,269 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 06 18:30:03 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>289 seconds (289385 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: + Create Page, Login, UserName, Textfield, xpath, //login1, xpath, //login2</td>
+<td></td>
+<td>4</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Login, Login, Password, Textfield, xpath, //login1, xpath, //login2</td>
+<td></td>
+<td>4</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: + Create Page, Home, Contacts, Textfield, name, contacts, xpath, //contacts</td>
+<td></td>
+<td>4</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Home, Home, Leads, Textfield, name, leads, xpath, //leads</td>
+<td></td>
+<td>4</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: + Create Page, AddressSearch, EnterAddress, Textfield, xpath, //input[@placeholder='Enter address'], xpath, //div[@data-aura-class='uiInput uiAutocomplete uiInput--default uiInput--lookup']</td>
+<td></td>
+<td>10</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: + Create Page, Accounts, EnterAddress, Textfield, xpath, //input[@placeholder='Enter address'], xpath, //div[@data-aura-class='uiInput uiAutocomplete uiInput--default uiInput--lookup']</td>
+<td></td>
+<td>10</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, New, Textfield, xpath, //span[text()='New'], xpath, //span[text()='New']/parent::a</td>
+<td></td>
+<td>10</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, Clone, Textfield, xpath, //span[text()='Clone'], xpath, //span[text()='Clone']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, Rename, Textfield, xpath, //span[text()='Rename'], xpath, //span[text()='Rename']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, SharingSettings, Textfield, xpath, //span[text()='Sharing Settings'], xpath, //span[text()='Sharing Settings']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, EditListFilters, Textfield, xpath, //span[text()='Edit List Filters'], xpath, //span[text()='Edit List Filters']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, SelectFieldToDisplay, Textfield, xpath, //span[text()='Select Fields to Display'], xpath, //span[text()='Select Fields to Display']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, Delete, Textfield, xpath, //span[text()='Delete'], xpath, //span[text()='Delete']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Accounts, ListViewControls1, ResetColumnWidths, Textfield, xpath, //span[text()='Reset Column Widths'], xpath, //span[text()='Reset Column Widths']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Master1, Dummy1, Textfield, xpath, //span[text()='Reset Column Widths'], xpath, //span[text()='Reset Column Widths']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>11</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Master2, Dummy2, Textfield, xpath, //span[text()='Reset Column Widths'], xpath, //span[text()='Reset Column Widths']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>11</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Master3, Dummy3, Textfield, xpath, //span[text()='Reset Column Widths'], xpath, //span[text()='Reset Column Widths']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>12</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Master4, Dummy4, Textfield, xpath, //span[text()='Reset Column Widths'], xpath, //span[text()='Reset Column Widths']/parent::a[@role='menuitem']/descendant::span[@class='slds-truncate']</td>
+<td></td>
+<td>11</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Master1, NewListView, ListName, Textfield, xpath, //label[text()='List Name']/following::input[@name='title'], xpath, //label[text()='List Name']/following-sibling::div/input</td>
+<td></td>
+<td>11</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Master1, NewListView, ListAPIName, Textfield, xpath, //label[text()='List API Name']/following::input[@class='slds-input'], xpath, //label[text()='List API Name']/following-sibling::div/input</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Master2, NewListView, OnlyICanSeeThisListView, Textfield, xpath, //span[text()='Only I can see this list view']/ancestor::label/span[@class='slds-radio_faux'], xpath, //span[text()='Only I can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: Master2, NewListView, AllUsersCanSeeThisListView, Textfield, xpath, //span[text()='All users can see this list view']/ancestor::label[@class='slds-radio__label']/descendant::span[@class='slds-radio_faux'], xpath, //span[text()='All users can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, Cancel, Textfield, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, Save, Textfield, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Save'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, NewListView, CloseThisWindow, Textfield, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, ListName, Textfield, xpath, //label[text()='List Name']/following::input[@name='title'], xpath, //label[text()='List Name']/following-sibling::div/input</td>
+<td></td>
+<td>11</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, ListAPIName, Textfield, xpath, //label[text()='List API Name']/following::input[@class='slds-input'], xpath, //label[text()='List API Name']/following-sibling::div/input</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, OnlyICanSeeThisListView, Textfield, xpath, //span[text()='Only I can see this list view']/ancestor::label/span[@class='slds-radio_faux'], xpath, //span[text()='Only I can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, AllUsersCanSeeThisListView, Textfield, xpath, //span[text()='All users can see this list view']/ancestor::label[@class='slds-radio__label']/descendant::span[@class='slds-radio_faux'], xpath, //span[text()='All users can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, Cancel, Textfield, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, Save, Textfield, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Save'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, CloneListView, CloseThisWindow, Textfield, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename1, ListName, Textfield, xpath, //label[text()='List Name']/following::input[@name='title'], xpath, //label[text()='List Name']/following-sibling::div/input</td>
+<td></td>
+<td>11</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename1, ListAPIName, Textfield, xpath, //label[text()='List API Name']/following::input[@class='slds-input'], xpath, //label[text()='List API Name']/following-sibling::div/input</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename1, Save, Textfield, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Save'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Save']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename1, Cancel, Textfield, xpath, //div[@class='modal-footer slds-modal__footer']/button/span[text()='Cancel'], xpath, //span[text()='Save']/ancestor::div[@class='modal-footer slds-modal__footer']/descendant::span[text()='Cancel']</td>
+<td></td>
+<td>6</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, Rename1, CloseThisWindow, Textfield, xpath, //button[@title='Close this window'], xpath, //div[@class='modal-header slds-modal__header']/descendant::button</td>
+<td></td>
+<td>5</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+<tr>
+<td title='createPageAndAddElements.CreatePageAndElements.addingElements()'><b>addingElements</b><br>Test class: createPageAndAddElements.CreatePageAndElements<br>Parameters: ListViewControls1, SharingSettings1, OnlyICanSeeThisListView, Textfield, xpath, //span[text()='Only I can see this list view']/ancestor::label/span[@class='slds-radio_faux'], xpath, //span[text()='Only I can see this list view']/parent::label/span[@class='slds-radio_faux']</td>
+<td></td>
+<td>12</td>
+<td>createPageAndAddElements.CreatePageAndElements@5622fdf</td></tr>
+</table><p>
+</body>
+</html>
